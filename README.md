@@ -1,4 +1,4 @@
-# Weather App
+# Snake Game
 
 Enjoy a classic gaming experience with our Snake Game! Built using React, TypeScript, and Tailwind CSS, this nostalgic game lets you control a snake as it grows longer and faster. Dive into hours of fun as you maneuver through the grid and challenge your reflexes to achieve the highest score. Are you ready to embrace the challenge and become the ultimate snake master?
 
