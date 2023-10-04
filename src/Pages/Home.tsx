@@ -9,8 +9,6 @@ const Home = () => {
   const [movePage, setMovePage] = useState<boolean>(false);
   const dispatch = useDispatch();
 
-  const handleButtonClick = () => {};
-
   const handleLevelChange = (level: number) => {
     dispatch(setGameLevel(level));
     setMovePage(true);

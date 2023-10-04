@@ -5,9 +5,29 @@
 
 .board {
   display: grid;
-  grid-template-columns: repeat(20, 25px);
-  grid-template-rows: repeat(20, 25px);
+  grid-template-columns: repeat(20, 30px);
+  grid-template-rows: repeat(20, 30px);
   width: max-content;
   gap: 1px;
   border: 1px solid #111;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.food {
+  background-color: red;
+}
+
+.snake {
+  background-color: rgb(24, 176, 24);
+}
+
+.snake-head {
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: black;
 }

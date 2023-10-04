@@ -1,27 +1,38 @@
-# React + TypeScript + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enjoy a classic gaming experience with our Snake Game! Built using React, TypeScript, and Tailwind CSS, this nostalgic game lets you control a snake as it grows longer and faster. Dive into hours of fun as you maneuver through the grid and challenge your reflexes to achieve the highest score. Are you ready to embrace the challenge and become the ultimate snake master?
 
-Currently, two official plugins are available:
+## Deployed Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Link](https://snake-game-beta-topaz.vercel.app/)
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project uses the following technologies and frameworks:
 
-- Configure the top-level `parserOptions` property like this:
+- HTML
+- CSS
+- Javascript
+- Typescript
+- React.js
+- TailwindCSS
+- React router
+- Redux-toolkit
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
+
+1. Clone the repository: `https://github.com/ignitinsharma/snake-game.git`
+2. Install dependencies: `yarn`
+3. Start the development server: `yarn dev`
+
+## Screenshots
+
+- Home Page \*
+
+![Screenshot 1](/redme_images/s1.png)
+
+- Game Board Page \*
+
+![Screenshot 2](./redme_images//s2.png)

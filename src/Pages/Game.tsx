@@ -16,7 +16,6 @@ const Game: React.FC = () => {
     (state: RootState) => state.game
   );
 
-  console.log("gameLevel:", gameLevel);
   // Use effect for updating the game state at regular intervals
   useEffect(() => {
     const moveSnake = setInterval(
